@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import Logo from './Logo';
 import Navi from './Navi';
 
 
@@ -46,9 +45,9 @@ function Header(props){
                   align-items-center px-lg-5 py-2 border-bottom  
                   fixed-top ">
           <h1 className="mb-0">
-            <a href="#top" className="d-block">
-              <Logo></Logo>
-              {/* <img src="./img/logo.svg" className="img-fluid w-100" alt="logo" /> */}
+            <a href="#top" className="toplink d-block">
+              <img src="./img/logo_green.png" className="logoimg" alt="logo" />
+            
             </a>
           </h1>
           <button className='btn d-md-none' id="allMenu" onClick={ e => {               

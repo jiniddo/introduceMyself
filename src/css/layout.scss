@@ -18,11 +18,12 @@ li{
 
     h1{
         max-width:9.5rem;
-        svg{
+        a{
             height:2.8rem;
             transform: translateY(-30%);
             transform-origin: center;
             transition: 0.5s;
+
             #blackIcon{
                 transform: translateY(-200%);
                 transition: 0.5s;
@@ -44,9 +45,11 @@ li{
            
             a{
                 color:white;
+
             }
-            h1 svg{
+            h1{
                 transform: translateY(0);
+
                 g{
                     g{ fill: white;}
                 }
@@ -59,7 +62,7 @@ li{
                 }
 
             }
-            
+
 
         }
         #allMenu{
@@ -96,6 +99,18 @@ li{
         }
         
     }
+    .main{
+        height:100%;
+        background-color: #ffd748;
+        }
+
+        }
+        .logoimg{
+            transform: translateY(0);
+            width:auto;
+            height: 100%;
+        }
+    
     .workSection{
         .swiper-wrapper{
              .swiper-slide{
@@ -115,8 +130,31 @@ li{
                 }
              }
              .boot{
-
+                background:url(../img/tving.png) no-repeat center;
+                background-size: cover;
+                color:white;
+                @media (max-width:768px) {
+                    background-image: url(../img/md_tving.png);
+                    
+                }
              }
+             .sir{
+                background:url(../img/familyisland.png) no-repeat center;
+                background-size: cover;
+                color:white;
+                @media (max-width:768px) {
+                    background-image: url(../img/md_familyisland.png);
+                    
+                }
+             }
+             .figma{
+                background:url(../img/shoping_note.png) no-repeat center;
+                background-size: cover;
+                color:white;
+                @media (max-width:768px) {
+                    background-image: url(../img/md_shoping_note.png);
+                    
+                }
         }
         .swiper-scrollbar-horizontal{
             height: 2px;

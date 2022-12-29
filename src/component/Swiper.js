@@ -2,10 +2,13 @@ import swiperDBlink from '../json/swiperinof.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 
-const Worksswiper = () => {
+const Worksswiper = (props) => {
     const swiperinfo = swiperDBlink.portfolio;
       return(
-        <Swiper className='workSection'
+        <section className="section py-5 text-center" id={props.contentid}>
+          <h3>{props.title}</h3>
+        
+        <Swiper className='workSection' 
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={0}
         slidesPerView={1.5}
@@ -31,8 +34,8 @@ const Worksswiper = () => {
             )
             
           }
-             
         </Swiper>
+        </section>
       )
   }
   

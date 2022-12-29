@@ -4,12 +4,16 @@
     "naviLink" : "#portfolio"
   },
   {
-    "naviText" : "인물탐방",
-    "naviLink" : "#me"
+    "naviText" : "봄날의 지니",
+    "naviLink" : "#aboutMe"
                   },
   {
-    "naviText" : "사전인터뷰 및 제안",
+    "naviText" : "사전인터뷰",
     "naviLink" : "#preInterview"
-                  }
+  },
+  {
+    "naviText" : "면접제안",
+    "naviLink" : "#contact"
+  }
   ]
 }
